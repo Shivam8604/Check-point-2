@@ -56,7 +56,9 @@ table {
 }
 
 /*   General style   */
-
+.section{
+    margin-bottom: 80px;
+}
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -89,6 +91,7 @@ table {
     background-color: rgba(0, 0, 0, 2);
     object-fit: cover;
     height: 600px;
+    margin-bottom: 80px;
 }
 
 .social-icon{
@@ -199,4 +202,41 @@ table {
 .portfolio img{
     width: 250px;
     margin: 16px 0;
+}
+
+/*     Our team section   */
+
+.team-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.team-list img{
+    border-radius: 50%;
+    width: 250px;
+}
+
+.skill-info{
+    display: flex;
+    justify-content: space-between;
+}
+.skill-info .left{
+    width: 800px;
+}
+.skill-info .left p{
+    color: #787575;
+    margin-bottom: 16px;
+    line-height: 1.5;
+}
+.skill-info .right{
+    width: 350px;
+}
+.skill-info .right h4{
+    margin: 16px 0;
+    display: block;
+    background-color: #ec523f;
+    color: #fff;
+    padding: 5px;
+    text-align: left;
+    margin-left: 50px;
 }
