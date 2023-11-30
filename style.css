@@ -260,3 +260,77 @@ table {
 
 /*-----------Gallery-------------*/
 
+.gallery-section{
+    display: flex;
+    justify-content: space-between;
+}
+.aside{
+    display: flex;
+    flex-basis: 25%;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ec523f;
+    padding: 24px;
+    height: 100vh;
+}
+.aside .sidebar-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.aside .sidebar-header span {
+    color: #fff;
+    margin-left: 10px;
+    font-size: 28px;
+    font-weight: 600;
+}
+.aside .sidebar-logo{
+    display: flex;
+    align-items: center;
+}
+.aside .sidebar-header a{
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+    border: 2px solid #fff;
+}
+.sidebar-content h2{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+.sidebar-content p{
+    line-height: 1.5;
+}
+.sidebar-icon i{
+    margin: 24px 10px;
+    color: black;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+.gallery{
+    flex-basis: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    overflow: auto;
+}
+.gallery h3{
+    font-size: 36px;
+    margin: 46px 0;
+    text-align: center;
+}
+.gallery img{
+    width: 400px;
+    border: 1px solid black;
+    margin: 10px;
+    object-fit: cover;
+}
