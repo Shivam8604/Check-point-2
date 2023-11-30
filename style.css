@@ -88,8 +88,8 @@ table {
 
 .header{
     background-image: url(Assets/Media/Portfolio/banner.jpg);
-    background-color: rgba(0, 0, 0, 2);
-    object-fit: cover;
+    background-color: rgba(0, 0, 0, 6);
+    background-size: cover;
     height: 600px;
     margin-bottom: 80px;
 }
@@ -111,6 +111,7 @@ table {
     align-items: center;
     background-color: #fff;
     margin-bottom: 120px;
+
 }
 
 .logo{
@@ -239,4 +240,39 @@ table {
     padding: 5px;
     text-align: left;
     margin-left: 50px;
+}
+
+/*-----------footer--------*/
+
+.flex{
+    margin: 36px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #777;
+}
+.top-btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: #ec523f;
+    padding: 10px 15px;
+}
+
+/*-----------Gallery-------------*/
+
+.gallery{
+    display: flex;
+    justify-content: space-between;
+}
+aside{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.gallery-main{
+    flex-basis: 65%;
+    flex-wrap: wrap;
+}
+.gallery-main img{
+    width: 50px;
 }
