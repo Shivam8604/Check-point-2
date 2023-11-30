@@ -260,19 +260,3 @@ table {
 
 /*-----------Gallery-------------*/
 
-.gallery{
-    display: flex;
-    justify-content: space-between;
-}
-aside{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.gallery-main{
-    flex-basis: 65%;
-    flex-wrap: wrap;
-}
-.gallery-main img{
-    width: 50px;
-}
